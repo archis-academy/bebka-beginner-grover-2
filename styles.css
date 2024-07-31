@@ -10,11 +10,11 @@
     height: 760px;
 }
 .head-title h3 {
-    size: 18px;
- 
+    font-size: 18px;
+    font-family: Poppins ;
 }
 .head-title h2 {
-    size: 40px;position: fixed;
+    font-size: 40px;position: fixed;
 
 
 }
