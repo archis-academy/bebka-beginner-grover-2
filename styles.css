@@ -2,24 +2,94 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins";
 }
 
-.background-box{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-services-background{
+    margin: 0 auto;
     background-color:#FEF5F5;
     width: 1296px;
     height: 760px;
 }
+
+
+
 .head-title h3 {
+    width: 138px;
+    height: 24px;
+    padding-top: 108px;
+    margin-left: 579px;
+    color: #F54748;
+   font-weight: 500;
     font-size: 18px;
-    font-family: Poppins ;
+    line-height: 24px;
+    display: block;
+
 }
+
 .head-title h2 {
-    font-size: 40px;position: fixed;
+    color:#2E2E2E;
+    font-weight: 700;
+    Width: 627px;
+    Height: 108px;
+    padding-top: 20px;
+    margin-left: 335px;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    display: block;
+}
+.our-services-cards {
+    /* display: flex;
+        padding: 20px;
+        flex-direction: row;
+    */
+    justify-content: center;
+border: 2px #F54748 solid;
+
+}
+
+
+
+.free-shipping {
+    background-color: white;
+    width: 300px;
+    height: 310px;
+    text-align: center;
+    border-radius: 12%;
+    margin-top: 320.34px;
+    margin-left: 134px;   
+}
+
+
+.days-return {
+    background-color: white;
+    border-radius: 12%;
+    width: 300px;
+    height: 310px;
+    text-align: center;
+    padding-top: 319.34px;
+    margin-left: 484px;
 
 
 }
 
+.secure-checkout{
+    background-color: white;
+    border-radius: 12%;
+    width: 300px;
+    height: 310px;
+    text-align: center;
+    padding-top: 319.34px;
+    margin-left: 861.87px;
+
+}
 
 
 /* END Cerenucak/BE-8/Services Section */
-
