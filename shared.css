@@ -60,3 +60,9 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.footer-section-card-container {
+  display: flex;
+  gap: 100px;
+  margin: auto;
+}

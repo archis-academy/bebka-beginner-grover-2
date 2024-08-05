@@ -1,0 +1,24 @@
+.footer-section-card {
+  margin: 50px 100px;
+  gap: 20px;
+}
+
+.footer-section-menu-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-section-menu {
+  margin: 200px 200px;
+}
+.footer-section-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section-card-title {
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 20px;
+}
