@@ -23,14 +23,14 @@ body {
   text-align: center;
 }
 
-.head-title h3 {
+.feature-head-title h3 {
   padding-top: 108px;
   color: #f54748;
   font-weight: 500;
   font-size: 18px;
 }
 
-.head-title h2 {
+.feature-head-title h2 {
   color: #2e2e2e;
   max-width: 25ch;
   padding-top: 20px;
@@ -44,29 +44,42 @@ body {
   justify-content: center;
   text-align: center;
   padding: 50px;
+  position: relative;
+  z-index: 1;
 }
 
-.future-cards {
+.service-feature-cards {
   background-color: white;
   border-radius: 16px;
-  /*  width: 300px;
-    height: 310px; 
-    padding-top: 320px; */
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  max-width: 300px;
+  padding: 50px;
   gap: 10px;
   justify-content: center;
   flex-direction: column;
 }
-
-.background-card {
-    position: absolute;    
-  width: 250px;
-  height: 334.16px;
-  background-color:  #FE6A6A;;
-  rotate: -4deg;
-
+.service-feature-cards-icon1 {
+  padding-bottom: 70px;
+  padding-top: 10px;
 }
+.service-feature-background-cards {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: 85%;
+  background-color: #fe6a6a;
+  border-radius: 16px;
+  transform: rotate(-5deg);
+  z-index: -1;
+  max-width: 310px;
+  max-height: 350px;
+  margin-left: 40px;
+  /* justify-content: center;
+  flex-direction: column;  */
+}
+
 /* END Cerenucak/BE-8/Services Section */
+
