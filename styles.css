@@ -15,8 +15,8 @@ body {
     margin: 0 auto;
 }
 
-.hero-section .header-content {
-    width: 50%;
+.header-content {
+    flex:1;
 }
 
 .hero-section .tagline {
@@ -32,7 +32,7 @@ body {
     padding: 15px 20px;
 }
 
-.hero-section .header-content h1 {
+.header-content h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 800;
@@ -41,7 +41,7 @@ body {
 
 }
 
-.hero-section .header-content .highlight {
+.header-content .highlight {
     font-weight: 500;
     letter-spacing: -0.05em;
     color: rgba(245, 75, 75, 1);
@@ -49,12 +49,12 @@ body {
 
 }
 
-.hero-section .header-content h1 span {
+.header-content h1 span {
     font-weight: 500;
     letter-spacing: -0.08em;
 }
 
-.hero-section .header-content p {
+.header-content p {
     font-family: 'Poppins', sans-serif;
     max-width: 500px;
     margin-block: 15px;
@@ -122,22 +122,23 @@ body {
     cursor: pointer;
 }
 
-.hero-section .header-image {
+.header-image {
     display: flex;
+    flex:1;
     position: relative;
     flex-direction: row;
 }
 
-.hero-section .header-image > img {
+.header-image > img {
     max-width: 350px;
     transition-duration: 0.5s;
 }
 
-.hero-section .header-image > img:hover{
+.header-image > img:hover{
     transform: scale(1.1); 
 }
 
-.hero-section .header-orange {
+.header-orange {
     display: flex;
     align-self: flex-start;
     flex-direction: column;
@@ -148,31 +149,31 @@ body {
     box-shadow:  0px 50px 80px 0px rgba(0, 0, 0, 0.08);
 }
 
-.hero-section .header-orange .orange-info {
+.header-orange .orange-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.hero-section .header-orange .rectangle {
+.header-orange .rectangle {
     background-color: rgba(255, 166, 16, 1);
     width: 20px;
     height: 2px;
     border-radius: 1px;
 }
 
-.hero-section .header-orange h4 {
+.header-orange h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
-.hero-section .header-orange h2 {
+.header-orange h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 
-.hero-section .header-orange h5 {
+.header-orange h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: rgba(165, 165, 165, 1);
@@ -195,7 +196,7 @@ body {
     opacity: 0.8; 
 }
 
-.hero-section .header-delivery {
+.header-delivery {
     padding: 10px 20px;
     display: flex;
     align-items: center;
