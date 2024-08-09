@@ -15,8 +15,8 @@
 
 .features-02-content {
   max-width: 53ch;
-  margin-top: 12%;
-  margin-right: 7%;
+  align-self: flex-end;
+  margin-inline: 50px;
 }
 
 .features-02-content h4 {
