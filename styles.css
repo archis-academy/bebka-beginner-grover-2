@@ -6,51 +6,33 @@ body {
     box-sizing: border-box;
 }
 /* melikeunsaldi/BE-7/Hero-Section part begins */
-header {
-    padding: 20px;
-}
-
-.header-container {
+.hero-section {
     display: flex;
     overflow: hidden;
     align-items: center;
     max-width: 1296px;
+    padding: 20px;
     margin: 0 auto;
 }
 
-.header-content {
+.hero-section .header-content {
     width: 50%;
 }
 
-.tagline {
-    height: 46px;
-    width: 214px;
+.hero-section .tagline {
+    margin-block: 20px;
     border-radius: 23px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+    display: inline-flex;
     background-color:rgba(253, 236, 236, 1);
-}
-
-.tagline-image {
-    width: 60%;
-    margin-left: -5px;
-    padding-top: 20px;
-}
-
-.tagline-text {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    white-space: nowrap;
     line-height: 16px;
-    text-align: left;
     color: rgba(245, 85, 86, 1);
-    margin-left: 20px;
+    padding: 15px 20px;
 }
 
-.header-content h1 {
+.hero-section .header-content h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 70px;
     font-weight: 800;
@@ -59,7 +41,7 @@ header {
 
 }
 
-.header-content .highlight {
+.hero-section .header-content .highlight {
     font-weight: 500;
     letter-spacing: -0.05em;
     color: rgba(245, 75, 75, 1);
@@ -67,54 +49,50 @@ header {
 
 }
 
-.header-content h1 span {
+.hero-section .header-content h1 span {
     font-weight: 500;
     letter-spacing: -0.08em;
 }
 
-.header-content p {
+.hero-section .header-content p {
     font-family: 'Poppins', sans-serif;
-    width: 80%;
-    margin-top: 15px;
+    max-width: 500px;
+    margin-block: 15px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.005em;
-    text-align: left;
     color: rgba(103, 103, 103, 1);
 }
 
-.actions {
-    width: 70%;
-    margin-top: 50px;
+.hero-section .actions {
+    margin-top: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
 }
 
-.order-now{
+.hero-section .order-now{
     font-family: 'Poppins';
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
     text-align: center;
-    width: 186px;
-    height: 70px;
+    display: inline-flex;
     border-radius: 12px;
     background: rgba(248, 96, 97, 1);
     color:rgba(255, 250, 250, 1);
     border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 20px 30px;
     cursor: pointer;
     transition: opacity 0.4s ease;
 }
 
-.order-now:hover {
+.hero-section .order-now:hover {
     opacity: 0.8; 
 }
 
-.play-button {
+.hero-section .play-button {
     position: relative;
     width: 70px;
     height: 70px;
@@ -126,16 +104,16 @@ header {
     align-items: center;
 }
 
-.play-icon {
+.hero-section .play-icon {
     position: absolute;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     border-top: 17px solid rgba(253, 197, 94, 1);
     box-shadow: 0px 8px 15px 0px rgba(253, 197, 94, 0.2);
     transform: rotate(-90deg);
-    margin-left: 10px;
 }
-.order-process {
+
+.hero-section .order-process {
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
@@ -144,104 +122,103 @@ header {
     cursor: pointer;
 }
 
-.header-image {
-    width: 50%;
+.hero-section .header-image {
     display: flex;
+    position: relative;
     flex-direction: row;
-    position: relative; 
-    gap: 30px;
 }
 
-.header-image img {
+.hero-section .header-image > img {
     max-width: 350px;
-    height: auto;
+    transition-duration: 0.5s;
 }
 
-.header-orange {
-    width: 182px;
-    height: 272px;
+.hero-section .header-image > img:hover{
+    transform: scale(1.1); 
+}
+
+.hero-section .header-orange {
     display: flex;
+    align-self: flex-start;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     border-radius: 20px;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     box-shadow:  0px 50px 80px 0px rgba(0, 0, 0, 0.08);
 }
 
-.header-orange .orange-info {
+.hero-section .header-orange .orange-info {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
 }
 
-.header-orange .rectangle {
-    width: 100%;
+.hero-section .header-orange .rectangle {
     background-color: rgba(255, 166, 16, 1);
     width: 20px;
     height: 2px;
     border-radius: 1px;
 }
 
-.header-orange h4 {
+.hero-section .header-orange h4 {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
-.header-orange h2 {
+.hero-section .header-orange h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
 
-.header-orange h5 {
+.hero-section .header-orange h5 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: rgba(165, 165, 165, 1);
 }
 
-.shopping-icon {
+.hero-section .shopping-icon {
     background: linear-gradient(180deg, #FF7071 0%, #E73D3E 100%);
-    border-radius: 16px;
-    width: 50px;
-    height: 50px;
+    border-radius: 14px;
+    padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: -25px;
+    bottom: 0; 
+    transform: translateY(30px);
+    transition: opacity 0.4s ease;
+    cursor: pointer;
+}
+.hero-section .shopping-icon:hover {
+    opacity: 0.8; 
 }
 
-.header-delivery {
-    width: 160px;
-    height: 74px;
+.hero-section .header-delivery {
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: 0; 
-    right: 0; 
-    padding: 10px;
     border-radius: 10px;
-    box-shadow:  0px 50px 80px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 50px 80px 0px rgba(0, 0, 0, 0.08);
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
-.delivery-icon {
+.hero-section .delivery-icon {
     font-size: 24px;
-    margin-right: 15px;
+    padding-right: 15px;
     color: #34c759;
 }
 
-.delivery-info h4 {
+.hero-section .delivery-info h4 {
     font-family: 'Poppins';
     font-weight: 600;
 }
 
-.delivery-info p {
+.hero-section .delivery-info p {
     font-family: 'Poppins';
     font-weight: 500;
     font-size: 12px;
