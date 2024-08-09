@@ -23,7 +23,7 @@ body {
   text-align: center;
 }
 
-.feature-head-title h3 {
+.services-head-title h3 {
   padding-top: 108px;
   color: #f54748;
   font-weight: 500;
@@ -55,7 +55,7 @@ body {
   align-items: center;
   text-align: center;
   max-width: 300px;
-  padding: 50px;
+  padding: 30px 50px;
   gap: 10px;
   justify-content: center;
   flex-direction: column;
@@ -68,17 +68,16 @@ body {
   position: absolute;
   display: flex;
   justify-content: center;
-  width: 50%;
-  height: 85%;
+  width: 320px;
+  height: 325px;
   background-color: #fe6a6a;
   border-radius: 16px;
-  transform: rotate(-5deg);
+  transform: rotate(-4deg);
   z-index: -1;
-  max-width: 310px;
-  max-height: 350px;
+  max-width: 320px;
+  max-height: 325px;
   margin-left: 40px;
-  /* justify-content: center;
-  flex-direction: column;  */
+  flex-direction: column;
 }
 
 /* END Cerenucak/BE-8/Services Section */
