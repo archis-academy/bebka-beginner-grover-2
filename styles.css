@@ -1,4 +1,3 @@
-
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
@@ -8,7 +7,7 @@ body {
 }
 
 /* Font Family- Margin- Padding */
-*{
+* {
   font-family: "Poppins";
   margin: 0px;
   padding: 0px;
@@ -18,9 +17,9 @@ body {
 .navigationBar ul {
   list-style: none;
 }
-.navigationBar a{
+.navigationBar a {
   text-decoration: none;
-  color: #4D4D4D;
+  color: #4d4d4d;
 }
 .navigationBar {
   display: flex;
@@ -30,21 +29,21 @@ body {
   margin: 0 auto;
   margin-top: 30px;
 }
-.navigationBar .header-menu  {
+.navigationBar .header-menu {
   display: flex;
   flex-direction: row;
-  gap: 30px; 
+  gap: 30px;
   font-family: "poppins";
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   align-items: center;
 }
-.navigationBar a:hover{
-  color: #F55253;
+.navigationBar a:hover {
+  color: #f55253;
 }
 /*Search Bar */
-.search-bar-div{
+.search-bar-div {
   width: max-content;
   display: flex;
   flex-direction: row;
@@ -53,33 +52,33 @@ body {
   position: relative;
   border-radius: 8px;
 }
-.search-area{
+.search-area {
   font-size: 14px;
   line-height: 14px;
-  font-family: 'poppins';
+  font-family: "poppins";
   color: #232323;
   font-weight: 500;
   margin-left: 14px;
   margin-right: 10px;
   border-width: 1.5px;
-  border-color: #F2F2F2;
-  border-bottom: none ;
+  border-color: #f2f2f2;
+  border-bottom: none;
   border-top: none;
   border-left: none;
 }
 .btn-shopping {
-  background: url(./image/shopping.svg); 
+  background: url(./image/shopping.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 1.5rem;
   height: 1.8rem;
   border: none;
 }
-.notification{
+.notification {
   position: absolute;
-  top:-7px;
+  top: -7px;
   right: -7px;
-  background-color: #F86061;
+  background-color: #f86061;
   border-radius: 50px;
   width: 24px;
   height: 24px;
@@ -87,7 +86,6 @@ body {
   color: white;
   padding: 1px;
   box-shadow: -6px 9px 24px -6px rgb(248, 96, 97);
-  
 }
 /* BE-6 Header Section- Css End */
 /* melikeunsaldi/BE-7/Hero-Section part begins */
@@ -101,15 +99,15 @@ body {
 }
 
 .header-content {
-  flex:1;
+  flex: 1;
 }
 
 .hero-section .tagline {
   margin-block: 20px;
   border-radius: 23px;
   display: inline-flex;
-  background-color:rgba(253, 236, 236, 1);
-  font-family: 'Poppins', sans-serif;
+  background-color: rgba(253, 236, 236, 1);
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
@@ -118,20 +116,17 @@ body {
 }
 
 .header-content h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 70px;
   font-weight: 800;
   line-height: 88px;
   color: rgba(46, 46, 46, 1);
-
 }
 
 .header-content .highlight {
   font-weight: 500;
   letter-spacing: -0.05em;
   color: rgba(245, 75, 75, 1);
-
-
 }
 
 .header-content h1 span {
@@ -140,7 +135,7 @@ body {
 }
 
 .header-content p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   max-width: 500px;
   margin-block: 15px;
   font-size: 18px;
@@ -157,8 +152,8 @@ body {
   gap: 20px;
 }
 
-.hero-section .order-now{
-  font-family: 'Poppins';
+.hero-section .order-now {
+  font-family: "Poppins";
   font-size: 20px;
   font-weight: 500;
   line-height: 20px;
@@ -166,7 +161,7 @@ body {
   display: inline-flex;
   border-radius: 12px;
   background: rgba(248, 96, 97, 1);
-  color:rgba(255, 250, 250, 1);
+  color: rgba(255, 250, 250, 1);
   border: none;
   padding: 20px 30px;
   cursor: pointer;
@@ -174,7 +169,7 @@ body {
 }
 
 .hero-section .order-now:hover {
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
 .hero-section .play-button {
@@ -203,13 +198,13 @@ body {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: -0.01em;
-  color:rgba(54, 54, 54, 1);
+  color: rgba(54, 54, 54, 1);
   cursor: pointer;
 }
 
 .header-image {
   display: flex;
-  flex:1;
+  flex: 1;
   position: relative;
   flex-direction: row;
 }
@@ -219,8 +214,8 @@ body {
   transition-duration: 0.5s;
 }
 
-.header-image > img:hover{
-  transform: scale(1.1); 
+.header-image > img:hover {
+  transform: scale(1.1);
 }
 
 .header-orange {
@@ -231,7 +226,7 @@ body {
   padding: 20px;
   border-radius: 20px;
   position: relative;
-  box-shadow:  0px 50px 80px 0px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 50px 80px 0px rgba(0, 0, 0, 0.08);
 }
 
 .header-orange .orange-info {
@@ -249,36 +244,36 @@ body {
 }
 
 .header-orange h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 
 .header-orange h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
 
 .header-orange h5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: rgba(165, 165, 165, 1);
 }
 
 .hero-section .shopping-icon {
-  background: linear-gradient(180deg, #FF7071 0%, #E73D3E 100%);
+  background: linear-gradient(180deg, #ff7071 0%, #e73d3e 100%);
   border-radius: 14px;
   padding: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  bottom: 0; 
+  bottom: 0;
   transform: translateY(30px);
   transition: opacity 0.4s ease;
   cursor: pointer;
 }
 .hero-section .shopping-icon:hover {
-  opacity: 0.8; 
+  opacity: 0.8;
 }
 
 .header-delivery {
@@ -300,12 +295,12 @@ body {
 }
 
 .hero-section .delivery-info h4 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
 }
 
 .hero-section .delivery-info p {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
   font-size: 12px;
   color: rgba(165, 165, 165, 1);
@@ -413,7 +408,6 @@ body {
   max-width: 59px;
 }
 
-
 .features-02-card h5 {
   font-size: 16px;
   line-height: 18px;
@@ -440,4 +434,5 @@ body {
   bottom: -2%;
   left: 6%;
 }
+
 /*#BE-9/ Features 02 / HilalSeyhan / FINISH*/
