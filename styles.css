@@ -10,13 +10,18 @@
 }
 
 .footer-section-menu {
-  margin: 200px 200px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 .footer-section-card-container {
   display: flex;
   justify-content: space-between;
-}
 
+}
+.footer-section-h5{
+  
+}
 .footer-section-card-title {
   font-weight: 600px;
   font-size: 18px;
