@@ -17,9 +17,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 39px;
-    max-width: 1170px;
-    margin: auto;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 .navigationBar .header-menu  {
     display: flex;
