@@ -92,7 +92,8 @@
   border-radius: 15px;
   display: flex;
   margin: auto;
-  margin-block: 5px;
+  margin-block: 6px;
+  margin-inline: 8px;
   padding-block: 10px;
   align-items: center;
   justify-content: center;
