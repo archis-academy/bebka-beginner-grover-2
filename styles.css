@@ -315,9 +315,9 @@ body {
 /* Cerenucak/BE-8/Services Section */
 
 body {
-  display: flex;
+  
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 }
 
 .our-services-background {
