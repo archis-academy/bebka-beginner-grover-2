@@ -385,6 +385,11 @@ body {
   z-index: -1;
   width: 100%;
 }
+@media (max-width: 900px){
+  .our-services-cards{
+    flex-direction: column;
+  }
 
+}
 /* END Cerenucak/BE-8/Services Section */
 
