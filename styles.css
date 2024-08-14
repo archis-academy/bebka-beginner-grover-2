@@ -315,11 +315,9 @@ body {
 /* Cerenucak/BE-8/Services Section */
 
 body {
-  
   justify-content: center;
   align-items: center; 
 }
-
 .our-services-background {
   margin: 0 auto;
   background-color: #fef5f5;
@@ -331,21 +329,18 @@ body {
   gap: 20px;
   text-align: center;
 }
-
 .services-head-title h3 {
   padding-top: 108px;
   color: #f54748;
   font-weight: 500;
   font-size: 18px;
 }
-
 .feature-head-title h2 {
   color: #2e2e2e;
   max-width: 25ch;
   padding-top: 20px;
   font-size: 40px;
 }
-
 .our-services-cards {
   display: flex;
   gap: 50px;
@@ -356,7 +351,6 @@ body {
   position: relative;
   z-index: 1;
 }
-
 .service-feature-cards {
   background-color: white;
   border-radius: 16px;
@@ -389,7 +383,5 @@ body {
   .our-services-cards{
     flex-direction: column;
   }
-
 }
 /* END Cerenucak/BE-8/Services Section */
-
