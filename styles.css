@@ -204,8 +204,8 @@ body {
 }
 
 .absolute {
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
 }
 
 .header-image {
@@ -213,7 +213,8 @@ body {
   flex: 1;
   position: relative;
   flex-direction: row;
-  justify-content: flex-end;
+  gap: 5px;
+  /*justify-content: flex-end;*/
 }
 
 .header-image > img {
@@ -227,14 +228,11 @@ body {
 
 .header-orange {
   display: flex;
-  align-self: flex-start;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   border-radius: 20px;
-  position: relative;
-  bottom: 251px;
-  left: -360px;
+  background-color: rgb(245 237 237);
   box-shadow: 0px 50px 80px 0px rgba(0, 0, 0, 0.08);
 }
 
@@ -243,6 +241,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+  min-width: 130px;
 }
 
 .header-orange .rectangle {
@@ -275,8 +274,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  bottom: 0;
   transform: translateY(30px);
   transition: opacity 0.4s ease;
   cursor: pointer;
@@ -292,9 +289,7 @@ body {
   justify-content: center;
   border-radius: 10px;
   box-shadow: 0px 50px 80px 0px rgba(0, 0, 0, 0.08);
-  position: absolute;
-  top: 0;
-  right: 0;
+  align-self: flex-start;
 }
 
 .hero-section .delivery-icon {
@@ -321,6 +316,7 @@ body {
   }
   .header-image{
     padding-left: 100px;
+    margin-block: 10px;
   }
   .header-content h1 {
     font-size: 60px;
@@ -340,7 +336,7 @@ body {
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
   .hero-section {
     flex-direction: column;
     text-align: center;
@@ -349,14 +345,23 @@ body {
     display: flex;
     justify-content: center;
   }
-  .header-orange,
-  .header-delivery {
+  .header-image{
+    padding-left: 0;
+    gap: 0;
+  }
+  .header-orange{
     margin-top: 20px;
+    position: relative;
+    right: 40%;
   }
   .header-content p{
     max-width: 60ch;
     margin: 0 auto;
   } 
+  .absolute{
+    position: relative;
+    left: 10%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -374,10 +379,13 @@ body {
   .hero-section .order-process{
     font-size: 16px;
   }
+  .absolute{
+    position: relative;
+    left: 10%;
+  }
   .header-orange{
-    top: -202px;
-    left: -310px;
     max-width: 150px;
+    min-width: 180px;
   }
   .header-orange h4 {
     font-size: 16px;
@@ -392,6 +400,17 @@ body {
     max-width: 300px;
   }
 }
+@media(max-width:690px){
+  .header-orange{
+    min-width: 150px;
+  }
+  .header-delivery{
+    padding: 10px 15px;
+  }
+  .header-image > img {
+    max-width: 250px;
+  }
+}
 
 @media (max-width: 576px) {
   .hero-section {
@@ -403,6 +422,16 @@ body {
   }
   .header-content p {
     font-size: 12px;
+  }
+  .header-orange{
+    max-width: 130px;
+    min-width: 100px;
+  }
+  .header-delivery{
+    padding: 10px;
+  }
+  .header-image > img {
+    max-width: 220px;
   }
   .header-orange h4 {
     font-size: 14px;
