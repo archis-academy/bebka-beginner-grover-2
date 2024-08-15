@@ -429,6 +429,7 @@ body {
   }
   .header-delivery{
     padding: 10px;
+    font-size: 14px;
   }
   .header-image > img {
     max-width: 220px;
