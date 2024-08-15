@@ -309,6 +309,129 @@ body {
 }
 /* melikeunsaldi/BE-7/Hero-Section part ends */
 
+/* melekmahmutoglu/BE-5/Feature-Section Css Start */
+.Feature-Section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Feature-Section-1 .Img-AddButton-Div {
+  display: flex;
+  flex-direction: row;
+  padding: 150px;
+}
+.Feature-Section-1 .Add-Button-Div {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  box-shadow: 0px 60px 100px -10px #56000014;
+  background-color: white;
+  padding: 40px;
+  position: absolute;
+  transform: translate(165%, 80%);
+}
+.Feature-Section-1 .Add-Button-Name {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2e2e2e;
+}
+.Feature-Section-1 .Add-Button-UnderName {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #a5a4a4;
+  margin-top: 8px;
+}
+.Feature-Section-1 .Strawberry-Image {
+  margin-top: 40px;
+}
+.Feature-Section-1 .Score-Div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: start;
+}
+.Feature-Section-1 .Score-Number {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2e2e;
+  line-height: 20px;
+  margin-left: 5px;
+}
+.Feature-Section-1 .Feature-Sec1-Price-Div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Feature-Section-1 .Feature-Sec1-Price {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 20px;
+}
+.Feature-Section-1 .Add-Icon {
+  background-color: #f54748;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0px 16px 30px 0px #f5474826;
+}
+.Feature-Section-1 .Feature-Section-1-Content {
+  max-width: 40ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+.Feature-Section-1 .Feature-Sec1-Content-Title {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  color: #61d2a9;
+  margin-bottom: -20px;
+}
+.Feature-Section-1 .Feature-Sec1-Content-Header {
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 54px;
+  color: #2e2e2e;
+  text-transform: capitalize;
+}
+.Feature-Section-1 .Feature-Sec1-Content-Explanation {
+  color: #676767;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.Feature-Section-1 .Feature-Sec1-Content-Button {
+  background-color: #f86061;
+  color: #fffafa;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 25px;
+  border: none;
+  border-radius: 12px;
+  max-width: 201px;
+}
+
+/* melekmahmutoglu/BE-5/Feature-Section Css End */
+
 /*Responsive Design */
 
 /* melekmahmutoglu/BE-12/Header-Section Responsiveness Start */
