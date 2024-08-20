@@ -6,13 +6,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Font Family- Margin- Padding */
-* {
-  font-family: "Poppins";
-  margin: 0px;
-  padding: 0px;
-}
-
 /* BE-6 Header Section- Css Start */
 .navigationBar ul {
   list-style: none;
