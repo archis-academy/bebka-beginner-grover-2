@@ -506,3 +506,81 @@ body {
   }
 }
 /* melikeunsaldi/BE-7/BE-13/Hero-Section part ends */
+
+/* melikeunsaldi/BE-10/CTA-Section part starts */
+.cta-section {
+  display: flex;
+  max-width: 1296px;
+  background-color: #FEF5F5;
+  padding: 40px;
+  margin: 40px auto;
+  justify-content: center;
+  gap: 120px;
+}
+.mobile-mockup{
+  max-width: 300px;
+  flex: 1;
+}
+.cta-content {
+  max-width: 46ch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  gap: 15px;
+}
+.cta-content h3{
+  font-family: "Poppins", sans-serif;
+  color: #F54748;
+  font-weight: 500;
+  font-size: 18px;
+}
+.cta-content h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: #2E2E2E;
+  font-weight: 700;
+}
+
+.cta-content p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #676767;
+  max-width: 42ch;
+}
+
+.store-buttons {
+  display: flex;
+  gap: 20px;
+  padding-block: 25px;
+}
+
+.store-button {
+  border: 1.5px solid #EEDCDC;
+  padding: 15px 18px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #2E2E2E;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  gap: 10px;
+}
+.fa-apple{
+  color: white;
+  background-color: #2E2E2E;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.fa-google-play{
+  font-size: 35px;
+}
+.store-button:hover {
+  background-color: #EEDCDC;
+}
+/* melikeunsaldi/BE-10/CTA-Section part ends */
