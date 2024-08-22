@@ -363,7 +363,7 @@ body {
   .hero-section {
     padding: 20px;
   }
-  .header-image {
+  .header-image  {
     padding-left: 100px;
     margin-block: 10px;
   }
@@ -506,7 +506,76 @@ body {
   }
 }
 /* melikeunsaldi/BE-7/BE-13/Hero-Section part ends */
+/* Cerenucak/BE-8/Services-section-and-responsiveness */
 
+.our-services-background {
+  font-family: "Poppins";
+  margin: 0 auto;
+  background-color: #fef5f5;
+  max-width: 1296px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: center;
+}
+.services-head-title h3 {
+  padding-top: 108px;
+  color: #f54748;
+  font-weight: 500;
+  font-size: 18px;
+}
+.feature-head-title h2 {
+  color: #2e2e2e;
+  max-width: 25ch;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.our-services-cards {
+  display: flex;
+  gap: 50px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+}
+.service-feature-cards {
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  max-width: 300px;
+  padding: 30px 50px;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.service-feature-cards-icon1 {
+  padding-bottom: 70px;
+  padding-top: 10px;
+}
+.service-feature-background-cards {
+  position: absolute;
+  top: -10px;
+  right: -25px;
+  height: 110%;
+  background-color: #fe6a6a;
+  border-radius: 16px;
+  transform: rotate(-4deg);
+  z-index: -1;
+  width: 100%;
+}
+@media (max-width: 900px){
+  .our-services-cards{
+    flex-direction: column;
+  }
+}
+/* END Cerenucak/BE-8/Services-section-and-responsiveness */
 /* melekmahmutoglu/BE-5/Feature-Section Css Start */
 .feature-Section-1 {
   display: flex;
