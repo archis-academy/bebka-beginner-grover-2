@@ -743,4 +743,60 @@ body {
 .store-button:hover {
   background-color: #EEDCDC;
 }
+
+@media(max-width:1000px){
+  .cta-section{
+    padding: 20px;
+    gap: 50px;
+  }
+}
+@media (max-width: 874px) {
+  .cta-section {
+    padding: 20px;
+    gap: 50px;
+  }
+  .mobile-mockup{
+    max-width: 220px;
+    margin-inline: 10px;
+  }
+  .cta-content h1 {
+    font-size: 30px;
+  }
+  .cta-content p {
+    font-size: 16px;
+  }
+  .store-buttons {
+    padding-block: 15px;
+  }
+  .store-button {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 620px) {
+  .cta-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mobile-mockup{
+    max-width: 180px;
+  }
+  .cta-content {
+    text-align: center;
+    gap: 10px;
+  }
+  .cta-content h1 {
+    font-size: 25px;
+}
+  .store-buttons {
+    justify-content: center;
+  }
+  .fa-apple{
+    font-size: 16px;
+  }
+  .fa-google-play{
+    font-size: 25px;
+  }
+}
 /* melikeunsaldi/BE-10/CTA-Section part ends */
