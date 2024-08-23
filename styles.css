@@ -14,11 +14,11 @@ body {
 /* #BE-9/ Features 02 / HilalSeyhan / START */
 .features-02 {
   font-family: "Poppins";
-  width: auto;
+  max-width: 1296px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3%;
   background-color: #fefefe;
 }
 
@@ -26,6 +26,7 @@ body {
   max-width: 53ch;
   align-self: flex-end;
   margin-inline: 50px;
+  flex: 1;
 }
 
 .features-02-content h4 {
@@ -141,3 +142,119 @@ body {
   left: 6%;
 }
 /* #BE-9/ Features 02 / HilalSeyhan / FINISH */
+
+/* #BE-2/ Features 02 - RESPONSİVE - / HilalSeyhan / FINISH */
+
+@media (max-width: 1310px) {
+  .features-02-content {
+    max-width: 35ch;
+  }
+  
+  .features-02 .explore-now {
+    width: 190px;
+    height: 60px;
+  }
+
+  .features-02-card {
+    max-width: 146px;
+    top: 39%;
+    right: -15%;
+  }
+  
+  .features_02_img2 {
+    max-width: 49px;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .features-02 {
+    margin-block: 8%;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .features-02-content {
+    max-width: 43ch;
+    margin: auto;
+  }
+  
+  .features-02 .explore-now {
+    width: 190px;
+    height: 60px;
+  }
+  
+  .features-02-image-card {
+    position: relative;
+    margin: auto;
+  }
+}
+
+@media (max-width: 690px) {
+  .features-02-content h2 {
+    font-size: 32px;
+  }
+  
+  .features-02-content p {
+    font-size: 16px;
+  }
+
+  .features-02-card {
+    top: 40%;
+    right: -15%;
+  }
+  
+  .features-02-card h5 {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+  .features-02-card p {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .features-02-content {
+    margin: auto;
+  }
+
+  .features-02-content h2 {
+    font-size: 30px;
+  }
+
+  .features-02-content p {
+    font-size: 14px;
+  }
+
+  .features-02 .explore-now {
+    font-size: 16px;
+    width: 170px;
+    height: 50px;
+  }
+  
+  .features-02-image-card {
+    margin: auto;
+  }
+
+  .features-02-card {
+    max-width: 136px;
+    top: 29%;
+    right: -10%;
+  }
+  
+  .features_02_img1{
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .features-02-card h5 {
+    font-size: 14px;
+  }
+
+}
+
+
+
+/* #BE-2/ Features 02 - RESPONSİVE - / HilalSeyhan / FINISH */
