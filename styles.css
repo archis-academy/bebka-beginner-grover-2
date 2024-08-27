@@ -1,9 +1,7 @@
 .footer-section-card {
 
   gap: 20px;
-  padding-inline: 30px;
   padding-block: 10px;
-  margin: 0 auto;
   text-align: left;
 }
 
@@ -21,6 +19,13 @@
   color: #676767;
 }
 
+.footer-section-h5{
+  font-weight: 600px;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Poppins";
+}
+
 .footer-section-menu {
   display: flex;
   max-width: 1200px;
@@ -30,7 +35,6 @@
   padding-block: 10px;
   font-family: "Poppins";
   text-align: left;
-  margin: 0 auto;
 }
 
 .footer-section-p {
@@ -45,16 +49,18 @@
 }
 
 .footer-sctn {
-  margin: auto;
+  padding: 100px;
 }
 
 .footer-section-card-container {
-  display: flexbox;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 40px;
   text-align: center;
   justify-content: center;
   margin: 0 auto;
+  column-gap: 20px;
+  row-gap: 20px ;
 }
 
 .hr {
@@ -88,4 +94,35 @@
   display: flex;
   align-items: flex-end;
   gap: 30px;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    .footer-section-card-container{
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
+    .footer-section-menu-logo{
+      margin: 0 auto;
+    }
+  
+}
+
+
+@media (max-width: 500px) {
+    .footer-section-card-container{
+        grid-template-columns: 1fr;
+    }
+    .footer-section-card{
+      text-align: center;
+    }
+    .footer-section-menu{
+      text-align: center;
+    }
+    .footer-section-menu-logo{
+      margin: 0 auto;
+    }
 }
