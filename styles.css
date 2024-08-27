@@ -4,6 +4,7 @@
   padding-inline: 30px;
   padding-block: 10px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .footer-section-menu-logo {
@@ -28,6 +29,8 @@
   gap: 20px;
   padding-block: 10px;
   font-family: "Poppins";
+  text-align: left;
+  margin: 0 auto;
 }
 
 .footer-section-p {
@@ -38,6 +41,7 @@
 .footer2 {
   display: flex;
   justify-content: space-between;
+  border-top: 2px solid #676767;
 }
 
 .footer-sctn {
@@ -45,11 +49,10 @@
 }
 
 .footer-section-card-container {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flexbox;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 40px;
   text-align: center;
-  border-bottom: 2px solid gray;
   justify-content: center;
   margin: 0 auto;
 }
